@@ -1,0 +1,117 @@
+.body {
+  background-image: -webkit-linear-gradient(270deg, #1e1e1e, #181818), -webkit-linear-gradient(270deg, #1e1e1e, #1e1e1e);
+  background-image: linear-gradient(180deg, #1e1e1e, #181818), linear-gradient(180deg, #1e1e1e, #1e1e1e);
+}
+
+.container {
+  position: relative;
+  display: block;
+  margin: 10% auto;
+}
+
+.image {
+  position: static;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  clear: none;
+}
+
+.section {
+  display: block;
+}
+
+.image-2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-3 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-4 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-5 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-6 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-7 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-8 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-9 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-10 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-11 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-12 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-13 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.link-block {
+  display: block;
+  width: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+}
+
+.div-block {
+  display: block;
+  margin-top: 40px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.link-block-2 {
+  display: block;
+  width: 288px;
+  margin-right: auto;
+  margin-left: auto;
+}
