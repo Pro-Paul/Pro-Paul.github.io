@@ -1,6 +1,6 @@
 .body {
-  background-image: -webkit-linear-gradient(270deg, #1e1e1e, #181818), -webkit-linear-gradient(270deg, #1e1e1e, #1e1e1e);
-  background-image: linear-gradient(180deg, #1e1e1e, #181818), linear-gradient(180deg, #1e1e1e, #1e1e1e);
+  background-image: -webkit-linear-gradient(270deg, #1e1e1e, #1e1e1e);
+  background-image: linear-gradient(180deg, #1e1e1e, #1e1e1e);
 }
 
 .container {
