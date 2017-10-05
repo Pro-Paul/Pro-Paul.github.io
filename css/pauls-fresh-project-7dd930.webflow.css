@@ -10,7 +10,7 @@
 }
 
 .image {
-  position: static;
+  position: relative;
   display: block;
   float: none;
   clear: none;
@@ -96,7 +96,6 @@
 }
 
 .social-link {
-  position: relative;
   display: block;
   width: 70px;
   margin: 20px;
@@ -119,7 +118,11 @@
 .id-link {
   display: block;
   width: 288px;
-  margin: 60px 40px 40px;
+  margin: 40px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
 }
 
 .utility-page-wrap {
@@ -201,6 +204,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-right: 139px;
+  margin-bottom: 40px;
   margin-left: 139px;
   padding-left: 0px;
   -webkit-box-pack: center;
@@ -225,6 +229,7 @@
   display: -ms-flexbox;
   display: flex;
   max-width: 1024px;
+  min-height: 600px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 0px;
@@ -271,27 +276,101 @@
   align-items: center;
 }
 
-.button {
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  border-radius: 100px;
-}
-
 .image-14 {
-  position: absolute;
+  position: static;
   left: 0px;
-  top: 0px;
-  display: block;
+  bottom: 0px;
 }
 
-.image-15 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+html.w-mod-js *[data-ix="pop-load"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="pop-load-2"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="pop-load-3"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="pop-load-4"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="pop-load-5"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="pop-load-6"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="pop-load-7"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="pop-load-8"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="pop-load-9"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="pop-load-10"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="pop-load-11"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="pop-load-12"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="pop-load-13"] {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
 }
 
 @media (max-width: 991px) {
@@ -316,6 +395,12 @@
     margin-right: 40px;
     margin-left: 40px;
   }
+  .central-align-div {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
 }
 
 @media (max-width: 479px) {
@@ -326,5 +411,19 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+  .outside-flexbox {
+    position: absolute;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .central-align-div {
+    position: absolute;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
