@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  text-transform: none;
+}
+
 .body {
   background-image: -webkit-linear-gradient(270deg, #1e1e1e, #1e1e1e);
   background-image: linear-gradient(180deg, #1e1e1e, #1e1e1e);
@@ -106,6 +111,7 @@
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  text-transform: none;
 }
 
 .div-block {
@@ -292,6 +298,7 @@
   color: #f4f4f4;
   text-align: center;
   text-decoration: none;
+  text-transform: none;
 }
 
 .pencildiv {
