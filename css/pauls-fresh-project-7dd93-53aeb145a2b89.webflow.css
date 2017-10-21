@@ -103,7 +103,7 @@ a {
 .social-link {
   display: block;
   width: 70px;
-  margin: 20px;
+  margin: 20px 20px 0px;
   padding-right: 0px;
   padding-left: 0px;
   float: none;
@@ -206,6 +206,7 @@ a {
 }
 
 .social-flexbox {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -231,6 +232,7 @@ a {
 }
 
 .outside-flexbox {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -293,7 +295,7 @@ a {
   position: relative;
   left: -10px;
   width: 90px;
-  margin-top: 6px;
+  margin-top: 16px;
   font-family: 'Josefin Sans', sans-serif;
   color: #f4f4f4;
   text-align: center;
@@ -351,6 +353,22 @@ a {
   left: 0px;
   top: 0px;
   overflow: visible;
+}
+
+.imagediv {
+  position: relative;
+}
+
+.notify {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: block;
+}
+
+.blacktextid {
+  position: absolute;
+  z-index: 1;
 }
 
 html.w-mod-js *[data-ix="pop-load"] {
@@ -456,6 +474,10 @@ html.w-mod-js *[data-ix="pop-load-15"] {
   -webkit-transform: scale(0.5, 0.5);
   -ms-transform: scale(0.5, 0.5);
   transform: scale(0.5, 0.5);
+}
+
+html.w-mod-js *[data-ix="blacktextidaction"] {
+  opacity: 0;
 }
 
 @media (max-width: 991px) {

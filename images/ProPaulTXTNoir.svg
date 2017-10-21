@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="288px" viewBox="0 0 288 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Buttons/ProPaulTXTNoir</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Tablet-v1.2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad-Pro-Copy" transform="translate(-539.000000, -271.000000)">
+            <g id="Buttons/ProPaulTXTNoir" transform="translate(539.000000, 271.000000)">
+                <g id="ProPaulTXTNoir">
+                    <g id="Group-5">
+                        <path d="M144,285.4995 C65.977,285.4995 2.5,222.0225 2.5,143.9995 C2.5,65.9765 65.977,2.4995 144,2.4995 C222.023,2.4995 285.5,65.9765 285.5,143.9995 C285.5,222.0225 222.023,285.4995 144,285.4995" id="Fill-1" fill="#262626"></path>
+                        <path d="M144,0 C64.472,0 0,64.471 0,144 C0,223.529 64.472,288 144,288 C223.529,288 288,223.529 288,144 C288,64.471 223.529,0 144,0 M144,5 C181.128,5 216.034,19.458 242.288,45.712 C268.542,71.966 283,106.872 283,144 C283,181.128 268.542,216.034 242.288,242.288 C216.034,268.542 181.128,283 144,283 C106.872,283 71.966,268.542 45.712,242.288 C19.458,216.034 5,181.128 5,144 C5,106.872 19.458,71.966 45.712,45.712 C71.966,19.458 106.872,5 144,5" id="Fill-3" fill="#F4F4F4"></path>
+                    </g>
+                    <text id="ProPaul" font-family="JosefinSans-LightItalic, Josefin Sans" font-size="60.7759" font-style="italic" font-weight="300" fill="#F4F4F4">
+                        <tspan x="46.4839" y="162.1802">P</tspan>
+                        <tspan x="79.910645" y="162.1802" letter-spacing="-0.9724144">r</tspan>
+                        <tspan x="98.8119499" y="162.1802">oPaul</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
