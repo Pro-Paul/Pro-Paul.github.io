@@ -292,12 +292,12 @@ input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 /**
- * 1. CUSTOM FOR WEBFLOW: changed from `textfield` to `none` to normalize iOS rounded input
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. CUSTOM FOR WEBFLOW: box-sizing: content-box rule removed
  *    (similar to normalize.css >=4.0.0)
  */
 input[type="search"] {
-  -webkit-appearance: none;
+  -webkit-appearance: textfield;
   /* 1 */
 }
 /**
