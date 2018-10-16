@@ -3,11 +3,6 @@ a {
   text-transform: none;
 }
 
-.body {
-  background-image: -webkit-linear-gradient(270deg, #1e1e1e, #1e1e1e);
-  background-image: linear-gradient(180deg, #1e1e1e, #1e1e1e);
-}
-
 .container {
   position: relative;
   display: block;
@@ -283,6 +278,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  border-style: none;
 }
 
 .image-14 {
@@ -386,11 +382,53 @@ a {
   bottom: 0px;
 }
 
-html.w-mod-js *[data-ix="pop-load"] {
-  opacity: 0;
-  -webkit-transform: scale(0.5, 0.5);
-  -ms-transform: scale(0.5, 0.5);
-  transform: scale(0.5, 0.5);
+.webframeboarder {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1000;
+  display: block;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  border: 10px solid #f4f4f4;
+}
+
+.div-block-3 {
+  box-shadow: inset 0 8px 10px 0 hsla(0, 0%, 8%, .7);
+}
+
+.backdrop {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -10;
+  background-image: -webkit-linear-gradient(270deg, #1e1e1e, #1e1e1e);
+  background-image: linear-gradient(180deg, #1e1e1e, #1e1e1e);
+}
+
+.whitecircle {
+  position: static;
+  display: block;
+}
+
+.pencil {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.shadow {
+  position: absolute;
 }
 
 html.w-mod-js *[data-ix="pop-load-2"] {
@@ -511,6 +549,9 @@ html.w-mod-js *[data-ix="scrollers"] {
     margin-left: 150px;
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .outside-flexbox {
+    margin-top: 40px;
   }
   .blacktextid {
     display: none;
