@@ -430,12 +430,14 @@ a {
 
 .pencil {
   position: absolute;
+  z-index: 1000;
   margin-top: -50px;
   margin-left: -100px;
 }
 
 .shadow {
   position: absolute;
+  z-index: 500;
 }
 
 html.w-mod-js *[data-ix="pop-load-2"] {
