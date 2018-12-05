@@ -200,7 +200,7 @@ a {
   right: 0px;
   bottom: 0px;
   z-index: -10;
-  background-image: -webkit-linear-gradient(270deg, #1e1e1e, #1e1e1e);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1e1e1e), to(#1e1e1e));
   background-image: linear-gradient(180deg, #1e1e1e, #1e1e1e);
 }
 
@@ -228,7 +228,7 @@ a {
   right: 0px;
   z-index: 500;
   padding-bottom: 10px;
-  background-image: -webkit-linear-gradient(270deg, #f4f4f4, #f4f4f4);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#f4f4f4));
   background-image: linear-gradient(180deg, #f4f4f4, #f4f4f4);
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .75);
 }
@@ -240,7 +240,7 @@ a {
   bottom: 0px;
   z-index: 501;
   padding-left: 10px;
-  background-image: -webkit-linear-gradient(270deg, #f4f4f4, #f4f4f4);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#f4f4f4));
   background-image: linear-gradient(180deg, #f4f4f4, #f4f4f4);
 }
 
@@ -251,7 +251,7 @@ a {
   bottom: 0px;
   z-index: 501;
   padding-right: 10px;
-  background-image: -webkit-linear-gradient(270deg, #f4f4f4, #f4f4f4);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#f4f4f4));
   background-image: linear-gradient(180deg, #f4f4f4, #f4f4f4);
 }
 
@@ -262,7 +262,7 @@ a {
   bottom: 0px;
   z-index: 500;
   padding-bottom: 10px;
-  background-image: -webkit-linear-gradient(270deg, #f4f4f4, #f4f4f4);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#f4f4f4));
   background-image: linear-gradient(180deg, #f4f4f4, #f4f4f4);
   box-shadow: 0 -4px 10px 0 rgba(0, 0, 0, .75);
 }
@@ -316,13 +316,13 @@ a {
   .scroll-arrow {
     padding: 8px 10px;
     border-radius: 360px;
-    background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
     background-image: linear-gradient(180deg, #fff, #fff);
   }
   .scroll-arrow.right {
     padding: 8px 10px;
     border-radius: 360px;
-    background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
     background-image: linear-gradient(180deg, #fff, #fff);
   }
 }
